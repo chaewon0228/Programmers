@@ -2,15 +2,15 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-// ÆÄ¶ó¹ÌÅÍ·Î ÁÖ¾îÁö´Â ¹®ÀÚ¿­Àº const·Î ÁÖ¾îÁı´Ï´Ù. º¯°æÇÏ·Á¸é ¹®ÀÚ¿­À» º¹»çÇØ¼­ »ç¿ëÇÏ¼¼¿ä.
+// íŒŒë¼ë¯¸í„°ë¡œ ì£¼ì–´ì§€ëŠ” ë¬¸ìì—´ì€ constë¡œ ì£¼ì–´ì§‘ë‹ˆë‹¤. ë³€ê²½í•˜ë ¤ë©´ ë¬¸ìì—´ì„ ë³µì‚¬í•´ì„œ ì‚¬ìš©í•˜ì„¸ìš”.
 int solution(const char* s) {
     int answer = 0;
-    answer = atoi(s);
+    answer = atoi(s); //atoi(str)ëŠ” ë¬¸ìì—´ì„ ì •ìˆ˜ë¡œ ë°”ê¾¸ëŠ” í•¨ìˆ˜ì´ë‹¤
     return answer;
 }
 
 int main() {
-    printf("solutionÇÔ¼öÀÇ ¹İÈ¯°ªÀº %d \n", solution("1234"));
-    printf("solutionÇÔ¼öÀÇ ¹İÈ¯°ªÀº %d \n", solution("-1234"));
+    printf("solutioní•¨ìˆ˜ì˜ ë°˜í™˜ê°’ì€ %d \n", solution("1234"));
+    printf("solutioní•¨ìˆ˜ì˜ ë°˜í™˜ê°’ì€ %d \n", solution("-1234"));
     return 0;
 }
