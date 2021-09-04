@@ -11,9 +11,9 @@ char* solution(int n) {
 
     for (int i = 0; i < n; i++) {
         if (i % 2 == 0)
-            strcat(answer, "¼ö");
+            strcat(answer, "water");
         else
-            strcat(answer, "¹Ú");
+            strcat(answer, "melon");
     }
 
     return answer;
