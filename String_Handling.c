@@ -3,8 +3,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-// 문자열 s의 길이가 4 혹은 6이고, 숫자로만 구성돼있는지 확인해주는 함수, solution을 완성하세요. 
-
 bool solution(const char* s) {
     bool result = true;
     if (strlen(s) != 4 && strlen(s) != 6) result = false;
