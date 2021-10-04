@@ -19,6 +19,6 @@ char* solution(const char* s) {
     return answer;
 }
 int main() {
-    printf("Zbcdefg -> %s \n", solution("Zbcdefg"));
+    printf("Zbcdefg의 내림차순은 %s 입니다.\n", solution("Zbcdefg"));
     return 0;
 }
