@@ -12,7 +12,7 @@ long long solution(long long n) {
     return -1;
 }
 int main() {
-    printf("121은 양수의 제곱인가? (x+1)^2 : %d\n", solution(121));
-    printf("3은 양수의 제곱인가? (x+1)^2 : %d\n", solution(3));
+    printf("121? (x+1)^2 : %d\n", solution(121));
+    printf("3? (x+1)^2 : %d\n", solution(3));
     return 0;
 }
