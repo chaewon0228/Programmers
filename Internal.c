@@ -14,6 +14,7 @@ int main() {
     int a_len = sizeof(a) / sizeof(int);
     int b[] = { -3, -1, 0, 2 };
     int b_len = sizeof(b) / sizeof(int);
+    
     printf("a[1, 2, 3, 4], b[-3, -1, 0, 2] => %d\n", solution(a, a_len, b, b_len));
     return 0;
 }
