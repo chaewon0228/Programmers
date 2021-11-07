@@ -4,9 +4,13 @@
 #include <algorithm> 
 using namespace std;
 
-// sizes_rows´Â 2Â÷¿ø ¹è¿­ sizesÀÇ Çà ±æÀÌ, sizes_cols´Â 2Â÷¿ø ¹è¿­ sizesÀÇ ¿­ ±æÀÌÀÔ´Ï´Ù.
+// sizes_rows[sizes][sizes_cols]
 int solution(vector<vector<int>> s) { 
+	// 2ì°¨ì› vector -> vector<vector<int>> s
 	int width = 0, height = 0; 
+	
+	// auto: ê°ì²´ê°€ í•´ë‹¹ ë¸”ë¡ì´ ëë‚ ë•Œ ìë™ íŒŒê´´
+	// ë§ˆì§€ë§‰ ì›ì†Œê¹Œì§€ ë³µì‚¬ë³¸ì„ ì €ì¥
 	for (auto size : s) { 
 		width = max(width, max(size[0], size[1])); 
 		height = max(height, min(size[0], size[1])); 
