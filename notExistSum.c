@@ -2,7 +2,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-// numbers_len은 배열 numbers의 길이입니다.
+/*
 int solution(int numbers[], size_t numbers_len) {
     int answer = 0;
     bool tt[10] = { false, };
@@ -16,7 +16,8 @@ int solution(int numbers[], size_t numbers_len) {
     }
     return answer;
 }
-/*
+*/
+
 int solution(int numbers[], size_t numbers_len) {
     int answer = 0;
 
@@ -25,7 +26,7 @@ int solution(int numbers[], size_t numbers_len) {
     }
     return 45 - answer;
 }
-*/
+
 int main() {
     int numbers[] = { 1,2,3,4,6,7,8,0 };
     int numbers_len = 8;
